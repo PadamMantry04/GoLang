@@ -12,6 +12,8 @@ func main() {
 
 // we can specify ... to make a function have any number of inputs but their tyoe should be defined correctly.
 // Note, a function can return more than one values too.
+// functions when passed along in structs are called methods.
+//
 
 func proAddr(values ...int) int {
 	total := 0
